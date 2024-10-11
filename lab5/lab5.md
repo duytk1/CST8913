@@ -1,6 +1,6 @@
 A detailed solution diagram showing the cloud-native target architecture (e.g., load balancers, managed databases, autoscaling groups)
 
-![Rehosting Diagram](./lab5.png)
+![Rehosting Diagram](./lab5_diagram.png)
 
 - **Client**: The user accessing the web.
 - **Azure Firewall**: Filter traffic between services.
