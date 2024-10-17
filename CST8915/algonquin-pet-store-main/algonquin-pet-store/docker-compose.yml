@@ -1,0 +1,16 @@
+# Specifies the version of Docker Compose format being used
+services:
+
+  # Definition for Store Front (Frontend Service)
+  store-front:
+    # Builds the Docker image for store-front using the local directory
+    build: ./store-front
+    # Maps the container's port 80 (HTTP) to port 80 on the host machine
+    ports:
+      - "80:80"
+    # Environment variables for the Store Front Service
+    environment:
+      # URL to access the Order Service from within the Docker network
+      - VUE_APP_ORDER_SERVICE_URL=http://order-service:3000
+      # URL to access the Product Service from within the Docker network
+      - VUE_APP_PRODUCT_SERVICE_URL=http://product-service:3030
