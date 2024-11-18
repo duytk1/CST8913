@@ -15,15 +15,27 @@
 - **Objective:** Test basic server and network functionality.  
 - **Expected Outcome:** The “Hello World” application should be accessible via a web browser within the VM network.  
 
+![File in VM](./pic1.png)
+
 ## Milestone 4: Migration Assessment
 - **Task:** Use Azure Migrate to perform an assessment of the VM for migration readiness.  
 - **Objective:** Evaluate the VM’s compatibility with Azure and note any necessary adjustments.  
 - **Expected Outcome:** A complete migration readiness assessment report, identifying compatibility issues and recommendations.  
 
+![Discover in Azure Migrate 1](./pic2.png)
+
+![Discover in Azure Migrate 1](./pic3.png)
+
 ## Milestone 5: VM Migration Execution
 - **Task:** Migrate the VM to Azure using Azure Migrate tools.  
 - **Objective:** Complete the VM migration to Azure and set up the necessary resources for it to run in the cloud.  
 - **Expected Outcome:** The VM instance should be successfully migrated to Azure, with all required configurations applied.  
+
+![Assess1](./pic4.png)
+
+![Assess2](./pic5.png)
+
+![Assess3](./pic6.png)
 
 ## Milestone 6: Validation and Failover Testing
 - **Task:** Validate the migrated VM's functionality by accessing the “Hello World” application in Azure. Then, conduct a failover test.  
