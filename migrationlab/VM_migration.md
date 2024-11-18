@@ -37,6 +37,10 @@
 
 ![Assess3](./pic6.png)
 
+![Assess4](./pic7.png)
+
+I am stuck at this step, since no vCenter Server account
+
 ## Milestone 6: Validation and Failover Testing
 - **Task:** Validate the migrated VM's functionality by accessing the “Hello World” application in Azure. Then, conduct a failover test.  
 - **Objective:** Ensure the application runs as expected post-migration and that failover mechanisms work effectively.  
